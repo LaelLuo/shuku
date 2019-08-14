@@ -1,5 +1,14 @@
 {
     "name": "书库",
     "summary": "给猪做的书库",
-    "list": []
+    "list": [
+        {
+            "name": "bl书库",
+            "url": "https://www.blshuku.com",
+            "category": 1,
+            "rank": 0,
+            "auth": false,
+            "version": 100
+        }
+    ]
 }
