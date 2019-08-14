@@ -42,8 +42,10 @@
         }
     },
     "content": {
-        "text": "div.acontent",
-        "filiter":"@div.linkright"
+        "text": "div.acontent :not(a)",
+        "filter": [
+            "@div.pages"
+        ]
     },
     "search": {
         "link": "https://www.blshuku.com/modules/article/search.php@post->searchtype=all&searchkey=${key}&t_btnsearch=",
