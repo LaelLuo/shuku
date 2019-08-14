@@ -4,6 +4,17 @@
     "category": 1,
     "url": "https://www.blshuku.com",
     "charset": "gbk",
+    "metadata": {
+        "name": [
+            "span.c_subject > a"
+        ],
+        "author": [
+            "div.c_tag:nth-of-type(2) span:nth-of-type(2)"
+        ],
+        "cover": [
+            ".fl img@attr->src"
+        ]
+    },
     "search": {
         "link": "https://www.blshuku.com/modules/article/search.php@post->searchtype=all&searchkey=${key}&t_btnsearch=",
         "list": "#jieqi_page_contents"
