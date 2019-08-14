@@ -35,14 +35,15 @@
     },
     "catalog": {
         "list": ".zj-box a",
-        "orderBy": 0,
+        "orderBy": 1,
         "chapter": {
             "name": "a",
             "link": "a@attr->href"
         }
     },
     "content": {
-        "text": "div.acontent"
+        "text": "div.acontent",
+        "filiter":".linkright"
     },
     "search": {
         "link": "https://www.blshuku.com/modules/article/search.php@post->searchtype=all&searchkey=${key}&t_btnsearch=",
