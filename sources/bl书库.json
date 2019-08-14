@@ -1,6 +1,6 @@
 {
     "name": "bl书库",
-    "version": 101,
+    "version": 100,
     "category": 1,
     "url": "https://www.blshuku.com",
     "charset": "gbk",
@@ -13,10 +13,39 @@
         ],
         "cover": [
             ".fl img@attr->src"
+        ],
+        "summary": [
+            "div.c_description"
+        ],
+        "category": [
+            "div.c_tag:nth-of-type(2) span:nth-of-type(4)"
+        ],
+        "status": [
+            "span:nth-of-type(8)"
+        ],
+        "update": [
+            "div.c_tag:nth-of-type(4) span:nth-of-type(4)"
+        ],
+        "lastChapter": [
+            "div:nth-of-type(4) span:nth-of-type(2)"
+        ],
+        "link": [
+            ".c_subject a@attr->href"
         ]
+    },
+    "catalog": {
+        "list": ".zj-box a",
+        "orderBy": 0,
+        "chapter": {
+            "name": "a",
+            "link": "a@attr->href"
+        }
+    },
+    "content": {
+        "text": "div.acontent"
     },
     "search": {
         "link": "https://www.blshuku.com/modules/article/search.php@post->searchtype=all&searchkey=${key}&t_btnsearch=",
-        "list": "#jieqi_page_contents > div"
+        "list": "div.c_row"
     }
 }
