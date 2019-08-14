@@ -1,6 +1,6 @@
 {
     "name": "bl书库",
-    "version": 100,
+    "version": 101,
     "category": 1,
     "url": "https://www.blshuku.com",
     "charset": "gbk",
@@ -17,6 +17,6 @@
     },
     "search": {
         "link": "https://www.blshuku.com/modules/article/search.php@post->searchtype=all&searchkey=${key}&t_btnsearch=",
-        "list": "div.c_row"
+        "list": "#jieqi_page_contents > div"
     }
 }
