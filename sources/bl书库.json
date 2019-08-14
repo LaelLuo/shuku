@@ -17,6 +17,6 @@
     },
     "search": {
         "link": "https://www.blshuku.com/modules/article/search.php@post->searchtype=all&searchkey=${key}&t_btnsearch=",
-        "list": "#jieqi_page_contents"
+        "list": "div.c_row"
     }
 }
