@@ -1,7 +1,5 @@
 {
-    "name": "bl书库",
-    "version": 100,
-    "category": 1,
-    "url": "https://www.blshuku.com",
-    "charset": "utf-8"
-  }
+    "name": "傻狗书库",
+    "summary": "给猪做的书库",
+    "list": []
+}
