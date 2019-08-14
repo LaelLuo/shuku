@@ -3,5 +3,9 @@
     "version": 100,
     "category": 1,
     "url": "https://www.blshuku.com",
-    "charset": "utf-8"
+    "charset": "utf-8",
+    "search": {
+        "link": "https://www.blshuku.com/modules/article/search.php@post->searchtype=all&searchkey=${key}",
+        "list": ".jieqi_page_contents"
+    }
 }
