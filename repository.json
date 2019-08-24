@@ -1,12 +1,20 @@
 {
-    "name": "书源",
-    "summary": "给猪做的书源",
+    "name": "爸爸de书源",
+    "summary": "私人书源, 主要是给猪做的BL书源和自己看的玄幻书源.",
     "list": [
         {
             "name": "bl书库",
             "url": "https://www.blshuku.com",
             "category": 1,
             "rank": 0,
+            "auth": false,
+            "version": 100
+        },
+        {
+            "name": "追读",
+            "url": "https://service.nickbussok.com",
+            "category": 1,
+            "rank": 3,
             "auth": false,
             "version": 100
         }

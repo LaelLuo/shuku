@@ -1,0 +1,76 @@
+{
+  "name": "追读",
+  "version": 100,
+  "category": 1,
+  "url": "https://service.nickbussok.com",
+  "charset": "utf-8",
+  "metadata": {
+    "name": [
+      "$.szBookName"
+    ],
+    "author": [
+      "$.szAuthor"
+    ],
+    "cover": [
+      "$.szConver",
+      "$..szCover"
+    ],
+    "summary": [
+      "$.szBriefDescp",
+      "$..szDesc"
+    ],
+    "category": [
+      "$..szThrdTypeName"
+    ],
+    "status": [],
+    "update": [],
+    "lastChapter": [],
+    "link": [
+      "$..szBookId@js->'https://service.nickbussok.com/bookinfo/book?nType=1&aryBookID=' + ${this} + '&nNeedThrdTypeData=1&szField=nChapterCount%2CnLastUpdateTime%2CnOnlineNum%2CszCopyright%2CszLastChapter%2CnSaleStatus%2CnVersion'"
+    ],
+    "catalog": [
+      "$..szBookId@js->'https://service.nickbussok.com/bookinfo/chapter?nType=2&szBookID=' + ${this} + '&nOffset=0&nLimit=' + ${custom[0]} + '&nSort=1'"
+    ],
+    "custom": [
+      "$..nChapterCount"
+    ]
+  },
+  "catalog": {
+    "list": "$..aryChapter[*]",
+    "orderBy": 0,
+    "chapter": {
+      "name": "$.szChapterName",
+      "link": "$.szChapterURL"
+    }
+  },
+  "content": {
+    "text": ""
+  },
+  "search": {
+    "link": "https://service.nickbussok.com/book/search/result?szInput=${key}&nOffset=0&nLimit=10&nAuthorNum=1&szVersion=1",
+    "list": "$.anyData[*]"
+  },
+  "rank": {
+    "link": [
+      {
+        "name": "人气榜",
+        "link": "https://service.nickbussok.com/toplist/ranklist?nRankId=1&nPage="
+      },
+      {
+        "name": "潜力榜",
+        "link": "https://service.nickbussok.com/toplist/ranklist?nRankId=5&nPage="
+      },
+      {
+        "name": "收藏榜",
+        "link": "https://service.nickbussok.com/toplist/ranklist?nRankId=6&nPage="
+      }
+    ],
+    "list": "$..aryBookList[*]",
+    "page": {
+      "index": 0,
+      "limit": 20,
+      "begin": "",
+      "next": "${index}"
+    }
+  }
+}
