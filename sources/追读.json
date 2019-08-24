@@ -26,6 +26,7 @@
     "update": [],
     "lastChapter": [],
     "link": [
+      "$.szBookID@js->'https://service.nickbussok.com/bookinfo/book?nType=1&aryBookID=' + ${this} + '&nNeedThrdTypeData=1&szFi4eld=nChapterCount%2CnLastUpdateTime%2CnOnlineNum%2CszCopyright%2CszLastChapter%2CnSaleStatus%2CnVersion'",
       "$..szBookId@js->'https://service.nickbussok.com/bookinfo/book?nType=1&aryBookID=' + ${this} + '&nNeedThrdTypeData=1&szField=nChapterCount%2CnLastUpdateTime%2CnOnlineNum%2CszCopyright%2CszLastChapter%2CnSaleStatus%2CnVersion'"
     ],
     "catalog": [
