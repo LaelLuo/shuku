@@ -29,10 +29,13 @@
       "$..szBookId@js->'https://service.nickbussok.com/bookinfo/book?nType=1&aryBookID=' + ${this} + '&nNeedThrdTypeData=1&szField=nChapterCount%2CnLastUpdateTime%2CnOnlineNum%2CszCopyright%2CszLastChapter%2CnSaleStatus%2CnVersion'"
     ],
     "catalog": [
-      "$..szBookId@js->'https://service.nickbussok.com/bookinfo/chapter?nType=2&szBookID=' + ${this} + '&nOffset=0&nLimit=' + ${custom[0]} + '&nSort=1'"
+      "$..szBookId@js->'https://service.nickbussok.com/bookinfo/chapter?nType=2&szBookID=' + ${this} + '&nOffset=0&nLimit=' + ${custom.nChapterCount} + '&nSort=1'"
     ],
     "custom": [
-      "$..nChapterCount"
+      {
+        "key": "nChapterCount",
+        "value": "$..nChapterCount"
+      }
     ]
   },
   "catalog": {
