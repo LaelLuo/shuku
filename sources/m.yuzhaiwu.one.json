@@ -1,0 +1,28 @@
+{
+    "name": "御宅屋",
+    "url": "m.yuzhaiwu.one",
+    "version": 100,
+    "search": {
+        "url": "https://m.yuzhaiwu.one/s.php@post->type=articlename&s=${key}",
+        "charset": "utf-8",
+        "list": "div.common-bookele",
+        "name": "a.articlename",
+        "author": "strong",
+        "detail": "a.articlename"
+    },
+    "detail": {
+        "summary": "div#novelMain pre",
+        "update":"td.article_info_td:eq(0) time",
+        "lastChapter":"td.article_info_td:eq(0) div[style] a",
+        "catalog": "td.article_info_td:eq(0) div[style] a@replace->/novel/->/novel/list/"
+    },
+    "catalog": {
+        "list": "ul li",
+        "orderBy": 0,
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter":{
+        "content":"#nr1"
+    }
+}

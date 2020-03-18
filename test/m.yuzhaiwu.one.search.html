@@ -1,0 +1,220 @@
+<html lang="zh-CN">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta charset="utf-8" />
+    <title>搜索"金刚"结果 - 御宅屋</title>
+    <link rel="stylesheet" href="/tustyle/search.css" />
+    <script src="/tustyle/jquery.js?v=58"></script>
+</head>
+
+<body>
+    <header class="Nav list">
+        <a class="back" href="javascript:history.back(-1);">返回</a>
+        <span>搜索<em id="totalNum"></em></span>
+        <a href="/">首页</a>
+    </header>
+    <form class="search" method="post" action="/s.php" target="_top" onsubmit="return SearchEvent(this.key.value)">
+        <label class="so">
+            <span id="clearInput" class="del">X</span><input name="type" value="articlename" type="hidden" />
+            <input id="InputKey" type="text" class="key" oninput="showRelevantSearch(this.value)" name="s"
+                x-webkit-speech="" x-webkit-grammar="bUIltin:search" lang="zh-CN" autofocus="true" placeholder="金刚" />
+            <input type="submit" />
+        </label>
+        <label onclick="closeIframe()" class="close">取消</label>
+    </form>
+
+    <div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/76148.html">某末日的变形金刚</a>
+            <p>作者：<strong>川南剑君</strong></p>
+            <p class="lastupdate">栏目：玄幻小说</p>
+            <span class="abstract"><a href="/novel/76148.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/70998.html">美漫里的变形金刚</a>
+            <p>作者：<strong>大魔灵</strong></p>
+            <p class="lastupdate">栏目：历史小说</p>
+            <span class="abstract"><a href="/novel/70998.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/69255.html">金刚战神</a>
+            <p>作者：<strong>岩涛</strong></p>
+            <p class="lastupdate">栏目：玄幻小说</p>
+            <span class="abstract"><a href="/novel/69255.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/63875.html">金刚骷髅</a>
+            <p>作者：<strong>海哥栗子</strong></p>
+            <p class="lastupdate">栏目：其他小说</p>
+            <span class="abstract"><a href="/novel/63875.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/61686.html">[HP]斯内普的金刚霸王小黄花</a>
+            <p>作者：<strong>东十七</strong></p>
+            <p class="lastupdate">栏目：耽美小说</p>
+            <span class="abstract"><a href="/novel/61686.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/60743.html">[变形金刚]荣格进化论 完结+番外</a>
+            <p>作者：<strong>蓝珑琼</strong></p>
+            <p class="lastupdate">栏目：耽美小说</p>
+            <span class="abstract"><a href="/novel/60743.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/59274.html">网游之金刚不坏</a>
+            <p>作者：<strong>铁牛仙</strong></p>
+            <p class="lastupdate">栏目：网游小说</p>
+            <span class="abstract"><a href="/novel/59274.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/53159.html">[变形金刚]荣格进化论</a>
+            <p>作者：<strong>蓝珑琼</strong></p>
+            <p class="lastupdate">栏目：耽美小说</p>
+            <span class="abstract"><a href="/novel/53159.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/52943.html">从变形金刚开始</a>
+            <p>作者：<strong>战列舰i</strong></p>
+            <p class="lastupdate">栏目：科幻小说</p>
+            <span class="abstract"><a href="/novel/52943.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/45695.html">篮坛大金刚</a>
+            <p>作者：<strong>微胖文艺男</strong></p>
+            <p class="lastupdate">栏目：玄幻小说</p>
+            <span class="abstract"><a href="/novel/45695.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/35492.html">[综]斯内普的金刚霸王小黄花</a>
+            <p>作者：<strong>东十七</strong></p>
+            <p class="lastupdate">栏目：耽美小说</p>
+            <span class="abstract"><a href="/novel/35492.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/34036.html">[变形金刚]换了领导我压力很大</a>
+            <p>作者：<strong>蓝珑琼</strong></p>
+            <p class="lastupdate">栏目：耽美小说</p>
+            <span class="abstract"><a href="/novel/34036.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/26477.html">异世金刚葫芦</a>
+            <p>作者：<strong>血羽心</strong></p>
+            <p class="lastupdate">栏目：玄幻小说</p>
+            <span class="abstract"><a href="/novel/26477.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/22806.html">金刚兔兔</a>
+            <p>作者：<strong>蛋蛋1113</strong></p>
+            <p class="lastupdate">栏目：高辣文</p>
+            <span class="abstract"><a href="/novel/22806.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/18640.html">[综英美]与变形金刚过日子的女巫</a>
+            <p>作者：<strong>事实是事实</strong></p>
+            <p class="lastupdate">栏目：言情小说</p>
+            <span class="abstract"><a href="/novel/18640.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/18036.html">遍地金刚</a>
+            <p>作者：<strong>青浼</strong></p>
+            <p class="lastupdate">栏目：耽美小说</p>
+            <span class="abstract"><a href="/novel/18036.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/9430.html">金刚</a>
+            <p>作者：<strong>狂枭</strong></p>
+            <p class="lastupdate">栏目：耽美小说</p>
+            <span class="abstract"><a href="/novel/9430.html"></a></span>
+        </div>
+        <div class="common-bookele">
+            <a class="articlename" href="/novel/4651.html">（变形金刚同人）我家的车</a>
+            <p>作者：<strong>雷安</strong></p>
+            <p class="lastupdate">栏目：种田文</p>
+            <span class="abstract"><a href="/novel/4651.html"></a></span>
+        </div>
+
+    </div>
+    <style>
+        #page {
+            text-align: center;
+            padding: 14px 0px;
+            float: left;
+            width: 80%;
+            margin-left: 10%;
+            line-height: 27px;
+        }
+
+        #page a {
+            width: 30%;
+            display: block;
+            float: left;
+            border-bottom: 1px solid #49CC9F;
+            color: #49CC9F;
+        }
+
+        #page div {
+            width: 40%;
+            display: block;
+            float: left;
+        }
+
+        #page div span,
+        #page div form {
+            float: left;
+        }
+
+        #page div span {
+            width: 40%;
+        }
+
+        #page div form {
+            width: 60%;
+        }
+    </style>
+    <div id="page">
+        <a id="prev" href="#">上一页</a>
+        <a id="next" style="float: right;" href="#">下一页</a>
+    </div>
+    <script>
+        var inputKey = document.getElementById("InputKey"),
+            url_param = location.hash.substr(1);
+        url_param && (inputKey.placeholder = decodeURIComponent(url_param), inputKey.focus());
+        var clearInput = document.getElementById("clearInput");
+        clearInput.onclick = function () {
+            inputKey.value = "";
+            this.style.display = "none";
+        };
+    </script>
+    <div id="foot" class="foot">
+        <a href="#">御宅屋</a>
+    </div>
+    <img src="/baidu.png" />
+    <script>yzw_tool_4();</script>
+    <div style="display: none;">
+        <script src="/js/all.js"></script>
+    </div>
+    <!--<div style="margin-top:280px;float: left;"></div>-->
+
+    <script>
+        (function () {
+            var bp = document.createElement('script');
+            var curProtocol = window.location.protocol.split(':')[0];
+            if (curProtocol === 'https') {
+                bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+            }
+            else {
+                bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+            }
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(bp, s);
+        })();
+    </script>
+
+
+</body>
+
+</html>

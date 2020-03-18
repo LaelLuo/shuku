@@ -1,0 +1,689 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<title>御宅屋_高辣文小说网,耽美小说在线阅读</title>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="keywords" content="御宅屋,御宅屋,御宅屋小说网,耽美肉文,bl肉文,高辣文,言情小说,百合文,女女肉文,gl肉文,肉书屋,肉文屋" /> 
+<meta name="description" content="御宅屋小说网主要提供耽美肉文、言情文、百合文，每个人可以自行上传分享小说，我们用心做小说，你想要的这里都有，你担心的不会发生！" />
+<meta name="generator" content="https://m.yuzhaiwu.one" /> 
+<meta name="MobileOptimized" content="240" /> 
+<meta name="applicable-device" content="mobile" /> 
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="https://m.yuzhaiwu.one/tustyle/style.css" /> 
+<script src="https://m.yuzhaiwu.one/tustyle/jquery.js?v=57"></script>  
+<script>if(window.top.location != window.self.location){window.top.location = window.self.location;}</script>
+<style>
+.sort{
+    float: left; 
+    width: 100%;
+}
+.sort ul {
+    padding: 0;
+    margin: 0;
+}
+.sort ul li {
+    width: 25%;
+    padding: 0.5em 0;
+}
+.sort ul li a {
+    border-right:1px solid #f56696;
+}
+.sort ul li:last-child a{
+    border-right:none;
+}
+#banner {
+    display: none;
+    background: #FBFBFB;
+    border-bottom: 1px solid #f56696;
+    position: absolute;
+    top: 50px;
+    z-index: 5;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+}
+#banner ul li {
+    width: 100%;
+    float: left;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    border-top: 1px dotted #F7CA00;
+    overflow: hidden;
+}
+#banner ul li:first-child
+{
+    border-top: none;
+}
+</style>
+            
+</head>
+<body id="nr_body">
+<div class="top">
+	<h1 class="l" id="yuzhaiwu"><a href="https://m.yuzhaiwu.one/" title="御宅屋">御宅屋</a></h1>
+	<div class="r">
+		<div id="login_top">
+		<a href="javascript:showbook();">阅读记录</a><a class='login_topbtn c_index_login' href="/login.php" >登录</a><a href="/register.php"  class='login_topbtn c_index_login' >注册</a>		</div>
+	</div>
+	<div class="cc"></div>
+</div>
+<div id="info" class="c_index_top" style="display:none"><a href="/mybook.php" style="color:#fff;">我的书架</a>&nbsp;&nbsp;&nbsp;<a href="logout.php" style="color:#fff">退出</a></div>
+<div class="sort c_sort">
+	<ul>
+		<li><a href="/wapsort/1_1.html" >耽美</a></li>
+		<li><a href="/wapsort/3_1.html" >言情</a></li>
+		<li><a href="/wapsort/5_1.html" >腹黑</a></li>
+		<li><a href="/wapsort/4_1.html" >高辣</a></li>
+		<li><a href="/wapsort/2_1.html" >百合</a></li>
+		<li><a href="/wapsort/7_1.html" >高干</a></li>
+		<li><a href="/wapsort/6_1.html" >种田</a></li>
+		<li><a href="/wapsort/10_1.html" >其他</a></li>
+						
+	</ul>
+</div>
+<div id="banner" style="display:none;"></div>
+<style>
+<!--
+h2{height:50px;background: #F8F8F8;color:#666;font-size: 16px;font-weight:normal;}
+h2 span{height:50px;line-height:50px;text-align:center;float:left;width: 25%;border-bottom: 1px solid #F8F8F8;}
+#tab .tab{color:#f56696 ;font-weight:bold;border-bottom: 1px solid #f56696;}
+#ct div{display:none;}
+#ct .ct{display:block;}
+.ct li {line-height: 35px;}
+
+.last_li{
+    margin: 5px;
+    border-bottom: 1px dotted #ddd;
+    line-height: 1.6em;
+    padding: 0 10px;
+}
+.last_li .name {font-size:16px;}
+.last_li .info {font-size:.875em;color:#999;}
+.words{
+    margin-left:3px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: .875em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #999;
+}
+#tag_ul li {
+    width:25%;
+    text-align:center;
+    overflow: hidden;
+}
+#tag_ul li a {padding:0 0;}
+header.Nav, header.Nav2 {
+    background: #F1F1F3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    font-size: 1.5em;
+    line-height: 45px;
+    border-bottom: 1px solid #CDCDCD;
+    overflow: hidden;
+    margin-top: 0px;
+}
+header.Nav a.back, header.Nav2 a.back {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+    width: 20%;
+    text-align: center;
+    display: block;
+    height: 45px;
+}
+header.Nav a, header.Nav2 a {
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+    width: 20%;
+    text-align: center;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+}
+header.Nav span {
+    color: #333;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    width: 60%;
+    height: 45px;
+}
+.search {
+  background: #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-bottom: 1px solid #D6D6D6;
+  color: #666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+.search label {
+  line-height: 36px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  display: block;
+}
+.search label.close {
+  -webkit-box-flex: 0;
+  -ms-flex: 0;
+  display: block;
+  width: 3em;
+  font-size: 16px;
+  text-align: center;
+}
+.search input[type=submit] {
+  display: none;
+}
+.search label.so {
+  position: relative;
+}
+.search label.so span.del {
+  position: absolute;
+  right: 10px;
+  top: 11px;
+  width: 14px;
+  height: 14px;
+  line-height: 2em;
+  background: url('https://m.yuzhaiwu.one/tustyle/close1.png') no-repeat 0 0;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  text-indent: -5em;
+  display: block;
+  overflow: hidden;
+}
+.search label.so input.key {
+  width: 100%;
+  border-radius: 15px;
+  padding: 8px 2em;
+  outline: 0;
+  box-sizing: border-box;
+  border: 0;
+  background: #ededed url('https://m.yuzhaiwu.one/tustyle/search.png') no-repeat 10px center;
+  background-size: 1em 1em;
+  font-size: 14px;
+  line-height: 14px;
+}
+-->
+</style>
+
+<div class="s_m">
+    <form class="search" method="post" action="/s.php" target="_top" style="background: rgba(255,255,255,0.1); border:none;"> 
+        <label class="so"> <span id="clearInput" class="del">X</span><input name="type" value="articlename"  type="hidden"/> <input id="InputKey" type="text" class="key"  name="s" x-webkit-speech="" x-webkit-grammar="bUIltin:search" lang="zh-CN" autofocus="true" placeholder="请输入搜索词" /> <input type="submit" /> </label> 
+    </form> 
+</div>
+
+<div class="visit-top s_m">
+	<h2 id="tab">
+		<span class="tab">今日热榜</span>
+		<span>本周热榜</span>
+		<span>本月热榜</span>
+		<span>总热榜</span>
+	</h2>
+	<div id="ct" class="chapterList">
+		<div class="ct">
+			<ul>	
+			 
+			<li><i>1</i>【耽美】<a href="/novel/13456.html">变态兄长</a></li>
+			 
+			<li><i>2</i>【高辣】<a href="/novel/38368.html">可知鹿死你手</a></li>
+			 
+			<li><i>3</i>【高辣】<a href="/novel/15557.html">重生系统之名器养成</a></li>
+			 
+			<li><i>4</i>【耽美】<a href="/novel/37856.html">[双性]陌路同途(高H)</a></li>
+			 
+			<li><i>5</i>【高辣】<a href="/novel/70531.html">年下小狼狗</a></li>
+			 
+			<li><i>6</i>【耽美】<a href="/novel/174.html">虎先生(人兽H)</a></li>
+			 
+			<li><i>7</i>【高辣】<a href="/novel/59911.html">快穿之性福攻略（H）</a></li>
+			 
+			<li><i>8</i>【高辣】<a href="/novel/23150.html">重生之香途</a></li>
+			 
+			<li><i>9</i>【高辣】<a href="/novel/9420.html">[女尊]公主万夫</a></li>
+			 
+			<li><i>10</i>【高辣】<a href="/novel/61943.html">睡了女儿的初恋</a></li>
+			</ul>
+		</div>
+		<div>
+			<ul>	
+ 
+			<li><i>1</i>【高辣】<a href="/novel/59876.html">淫液香水系统</a></li>
+			 
+			<li><i>2</i>【高辣】<a href="/novel/59420.html">【快穿】诱行（H）</a></li>
+			 
+			<li><i>3</i>【高辣】<a href="/novel/52090.html">恋卿</a></li>
+			 
+			<li><i>4</i>【高辣】<a href="/novel/58152.html">老师，再来一次_御书屋</a></li>
+			 
+			<li><i>5</i>【高辣】<a href="/novel/52953.html">原来你们都想上我(NP)(完结)</a></li>
+			 
+			<li><i>6</i>【高辣】<a href="/novel/58926.html">长日光阴(H)</a></li>
+			 
+			<li><i>7</i>【高辣】<a href="/novel/59662.html">你闻起来香香的【中短篇肉文合集】</a></li>
+			 
+			<li><i>8</i>【耽美】<a href="/novel/31909.html">窑子开张了(H)</a></li>
+			 
+			<li><i>9</i>【高辣】<a href="/novel/59622.html">情色诱惑（NP，高H）</a></li>
+			 
+			<li><i>10</i>【高辣】<a href="/novel/56077.html">淫日尽欢_御书屋</a></li>
+			
+</ul>
+		</div>
+		<div>
+			<ul>
+			 
+			<li><i>1</i>【言情】<a href="/novel/59625.html">底牌</a></li>
+			 
+			<li><i>2</i>【高辣】<a href="/novel/59876.html">淫液香水系统</a></li>
+			 
+			<li><i>3</i>【高辣】<a href="/novel/60345.html">[快穿]维纳斯的养成笔记_御宅屋</a></li>
+			 
+			<li><i>4</i>【高辣】<a href="/novel/52090.html">恋卿</a></li>
+			 
+			<li><i>5</i>【高辣】<a href="/novel/61851.html">女王的美男二十四宫_高h</a></li>
+			 
+			<li><i>6</i>【高辣】<a href="/novel/61854.html">夜夜换夫君_高h</a></li>
+			 
+			<li><i>7</i>【高辣】<a href="/novel/59666.html">荒唐言（h）</a></li>
+			 
+			<li><i>8</i>【高辣】<a href="/novel/77979.html">名利场（剧情H）</a></li>
+			 
+			<li><i>9</i>【高辣】<a href="/novel/59628.html">七X</a></li>
+			 
+			<li><i>10</i>【高辣】<a href="/novel/58926.html">长日光阴(H)</a></li>
+						</ul>
+		</div>
+		<div>
+			<ul>	
+ 
+			<li><i>1</i>【高辣】<a href="/novel/59420.html">【快穿】诱行（H）</a></li>
+			 
+			<li><i>2</i>【高辣】<a href="/novel/58926.html">长日光阴(H)</a></li>
+			 
+			<li><i>3</i>【高辣】<a href="/novel/58152.html">老师，再来一次_御书屋</a></li>
+			 
+			<li><i>4</i>【高辣】<a href="/novel/59662.html">你闻起来香香的【中短篇肉文合集】</a></li>
+			 
+			<li><i>5</i>【耽美】<a href="/novel/31909.html">窑子开张了(H)</a></li>
+			 
+			<li><i>6</i>【高辣】<a href="/novel/51290.html">(快穿)宝贝你日错人了(完结)</a></li>
+			 
+			<li><i>7</i>【高辣】<a href="/novel/59622.html">情色诱惑（NP，高H）</a></li>
+			 
+			<li><i>8</i>【高辣】<a href="/novel/52090.html">恋卿</a></li>
+			 
+			<li><i>9</i>【高辣】<a href="/novel/59876.html">淫液香水系统</a></li>
+			 
+			<li><i>10</i>【高辣】<a href="/novel/59214.html">豪门宠儿（NP H）</a></li>
+						</ul>
+		</div>
+	</div>
+</div>
+
+<div class="s_m">
+	<div class="q_top c_big">最新小说</div>
+    <ul>
+	 
+                <li class="last_li">
+            <a class="name" href="/novel/69808.html">苍穹之脊</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">古城上有月亮</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/69740.html">原始人攻略</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">千书过</a>
+                <span class="words">类型：历史</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/72498.html">大道从心</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">缘分0</a>
+                <span class="words">类型：武侠</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/74135.html">被照美冥挖了出来</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">大赦天下L</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/72271.html">副本模拟器</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">氪金改命</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/70060.html">近卫狂兵（唐欢韩芊艺）</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">云中战天</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/78756.html">猎人之面子果实</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">城堡里的虎猫</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/70021.html">我的光影年代</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">油炸大金</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/72324.html">最强药王</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">花刺1913</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/70225.html">丹皇武帝</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">实验小白鼠</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/74021.html">绝世妖神</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">林冰炎</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/72002.html">王爷站住，重生嫡女要强嫁</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">凝火火</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/71224.html">网游之我能融合骸骨</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">吃辣条上瘾</a>
+                <span class="words">类型：网游</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/71510.html">一直觉醒一直爽</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">大荒小野</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/76983.html">十界魂王</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">荣耀坤少</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/72450.html">凌刀问道</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">孤独浪人</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/71741.html">谍海先锋</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">虞猛</a>
+                <span class="words">类型：历史</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/71452.html">穿越大秦当暴君</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">悟了空</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/70495.html">回到古代做神探</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">捌元</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/72081.html">九龙狂帝</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">释不争</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/73256.html">若水向东流</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">我渴望力量</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/72608.html">小神医修真（宁采晨梦雅）</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">树海林林</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/78755.html">病娇反派又骗我宠他</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">晴空希蓝</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/70009.html">三国之蜀汉中兴</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">寒塘鸦影</a>
+                <span class="words">类型：历史</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/63174.html">都市魔尊奶爸</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">帝阳</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/73765.html">贞观俗人</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">木子蓝色</a>
+                <span class="words">类型：历史</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/65218.html">诸天武神路</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">烟雨料峭</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/70307.html">海贼之银狐大将</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">农夫一拳</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/73346.html">嫁春色</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">春梦关情</a>
+                <span class="words">类型：言情</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+                <li class="last_li">
+            <a class="name" href="/novel/78754.html">想成为英雄的灵能力者</a>
+            <div class="info">
+                作者：
+                <a href="javascript:;" class="author">兰陵王小生</a>
+                <span class="words">类型：玄幻</span>
+                <span class="words">时间：<time>2020-03-17</time></span>
+            </div>
+        </li>
+           
+            </ul>
+</div>
+
+<script type="text/javascript">
+<!--
+function changetab(){
+	var tabs=document.getElementById("tab").getElementsByTagName("span");
+	for (i=0;i<tabs.length;i++){
+		tabs[i].onclick=tab;
+   }
+}
+
+function tab(){
+	var tabs=document.getElementById("tab").getElementsByTagName("span");
+	var cts=document.getElementById("ct").getElementsByTagName("div");
+	for (i=0;i<tabs.length;i++){
+		tabs[i].className="";
+		cts[i].className="";
+		if (tabs[i]==this){
+			tabs[i].className="tab";
+			cts[i].className="ct";
+		}
+	}
+}
+
+window.onload=function (){
+	changetab();
+}
+//-->
+</script>	
+<div id="foot" class="foot">
+   <a href="#">御宅屋</a>
+</div>
+<img src="/baidu.png"/>
+<script>yzw_tool_4();</script>
+<div style="display: none;">
+<script src="/js/all.js"></script>
+</div>
+<!--<div style="margin-top:280px;float: left;"></div>-->
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+@url=http://192.168.1.108:8888
+@baseUrl={{url}}/dev
+@path=../sources/m.yuzhaiwu.one.json
+@key=金刚骷髅
+
+POST {{baseUrl}}/debug
+Content-Type: application/json
+
+< {{path}}
+
+###
+GET {{baseUrl}}/debug/auto?key={{key}}
+Content-Type: application/json
+
+###
+POST {{baseUrl}}/install
+Content-Type: application/json
+
+< {{path}}
